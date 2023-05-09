@@ -1,0 +1,55 @@
+.main-container{
+    display: flex;
+    flex-flow:row wrap;
+    
+  }
+  
+  body {
+    padding: 2em;
+    font-family: sans-serif;
+  }
+  .box {
+      text-align: center;
+  }
+  .coupon {
+      display: inline-block;
+      border: 1px dashed #000;
+      padding: 0.8em 1.2em;
+      position: relative;
+      font-weight: bold;
+      background: #FFC107;
+  }
+  
+  span.scissors {
+      position: absolute;
+      top: -12px;
+      right: 0;
+  }
+  .inner {
+      display: inline-block;
+      border: 1px solid #e8dddd;
+      padding: 1.2em 2.2em 2.2em 2.2em;
+  }
+  /* CCS DIV COMPANY LOGO*/
+  .coupon {
+    outline:1px dotted red;
+   /* border: 5px dotted red; /* Dotted border */
+    width: 80%;
+    border-radius: 15px; /* Rounded border */
+    margin: 0 auto; /* Center the coupon */
+    max-width: 350px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
